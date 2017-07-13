@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>local.flylab</groupId>
+  <groupId>local.flaylab</groupId>
   <artifactId>webapp1</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
@@ -18,20 +18,4 @@
   <build>
     <finalName>webapp1</finalName>
   </build>
-  <repositories>
-      <repository>
-        <id>maven-public</id>
-        <url>http://192.168.0.104:8081/repository/maven-public/</url>
-      </repository>
-  </repositories>
-  <distributionManagement>
-     <snapshotRepository>
-       <id>maven-snapshots</id>
-       <url>http://192.168.0.104:8081/repository/maven-snapshots/</url>
-     </snapshotRepository>
-     <repository>
-       <id>maven-releases</id>
-       <url>http://192.168.0.104:8081/repository/maven-releases/</url>
-     </repository>
-   </distributionManagement>
 </project>
