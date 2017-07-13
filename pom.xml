@@ -21,17 +21,17 @@
   <repositories>
       <repository>
         <id>maven-public</id>
-        <url>http://nexus.flylab.local:8081/repository/maven-public/</url>
+        <url>http://192.168.0.104:8081/repository/maven-public/</url>
       </repository>
   </repositories>
   <distributionManagement>
      <snapshotRepository>
        <id>maven-snapshots</id>
-       <url>https://nexus.flylab.local:8081/repository/maven-snapshots/</url>
+       <url>http://192.168.0.104:8081/repository/maven-snapshots/</url>
      </snapshotRepository>
      <repository>
        <id>maven-releases</id>
-       <url>https://nexus.flylab.local:8081/repository/maven-releases/</url>
+       <url>http://192.168.0.104:8081/repository/maven-releases/</url>
      </repository>
    </distributionManagement>
 </project>
