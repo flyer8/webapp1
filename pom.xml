@@ -23,16 +23,15 @@
         <id>maven-group</id>
         <url>http://nexus.flylab.local:8081/repository/maven-group/</url>
       </repository>
-    </repositories>
-    <distributionManagement>
-       <snapshotRepository>
-         <id>maven-snapshots</id>
-         <url>https://nexus.flylab.local/repository/maven-snapshots/</url>
-       </snapshotRepository>
-       <repository>
-         <id>maven-releases</id>
-         <url>https://nexus.flylab.local/repository/maven-releases/</url>
-       </repository>
-     </distributionManagement>
-  </project>
+  </repositories>
+  <distributionManagement>
+     <snapshotRepository>
+       <id>maven-snapshots</id>
+       <url>https://nexus.flylab.local/repository/maven-snapshots/</url>
+     </snapshotRepository>
+     <repository>
+       <id>maven-releases</id>
+       <url>https://nexus.flylab.local/repository/maven-releases/</url>
+     </repository>
+   </distributionManagement>
 </project>
